@@ -14,9 +14,4 @@ class User < ActiveRecord::Base
       self.save
     end 
   end
-
-  def destroy_cart 
-    current_cart_id = nil
-  end
-  
 end
